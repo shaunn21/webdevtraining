@@ -1,0 +1,23 @@
+
+Virtual environments:
+
+python environment which libraries, modules or scripts
+that are isolated form system.
+dependencies to separated to prevent version conflicts
+quick module deletion upon completion
+
+web framework - back end development
+micro framework - lacks tools by default
+used by netflix reddit linkedin etc
+
+lightweight, simple to implement, highly customisable, good doc, python in webdev
+
+Makes flask run:
+app = Flask(__name__)
+
+if __name__ == "__main__":
+    app.run(debug=True, port=8000)
+
+
+
+

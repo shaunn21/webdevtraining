@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1> About page </h1>
+<h3> About funzone </h3>
+<ul>
+    {% for res in results %}
+        <li>{{ res[1] }}</li>
+    {% endfor %}
+    <li>Mobile: 8989898989</li>
+    <li>Email: shshsa@gstrong.com</li>
+</ul>
+{% endblock %}
